@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getValue_A",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/4_Inheritance.sol": "A"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/4_Inheritance.sol": {
+			"keccak256": "0x30080b785d5608dda6eca1488e9f01f4e9d824527c4d4335adf6a557de789968",
+			"license": "WCY",
+			"urls": [
+				"bzz-raw://132f5d9c2c6c55786717dc308a0b2ed89bb2c636e3d00fb3fd255f6f3b562117",
+				"dweb:/ipfs/QmZctEbK3rN4h4eQQ2pNnPuJkNovoXaSPrn2Qxbu2ViHT6"
+			]
+		}
+	},
+	"version": 1
+}
