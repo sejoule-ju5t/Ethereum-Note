@@ -34,9 +34,8 @@ contract FunctionVisibility {
 }
 
 // is 继承
-contract SubFunctionVisibility is FunctionVisibility{
-
+contract SubFunctionVisibility is FunctionVisibility {
     function getValueFromParent() public view returns (string memory) {
-        return getInternalValue();  // 如果用getPrivateValue会报错
+        return getInternalValue(); // 如果用getPrivateValue会报错
     }
 }

@@ -1,18 +1,17 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: WCY
 
 pragma solidity ^0.8.4;
 
-contract HelloWorld{
+contract HelloWorld {
     string message = "Hello World";
 
-    constructor(){
-
-    }
+    constructor() {}
 
     function setMessage(string memory _message) public {
         message = _message;
     }
-    function getMessage() public view returns (string memory){
+
+    function getMessage() public view returns (string memory) {
         return message;
     }
 }
